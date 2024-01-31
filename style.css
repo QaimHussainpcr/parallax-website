@@ -1,0 +1,67 @@
+html,
+body {
+    height: 100%;
+    margin: 0px;
+    font-size: 16px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: #666;
+}
+
+.pic1 {
+    background-image: url("./img/mem1.jpeg");
+    min-height: 100%;
+
+}
+.pic2 {
+    background-image: url("./img/mem2.jpg");
+    min-height: 400px;
+
+}
+.pic3 {
+    background-image: url("./img/mem3.jpeg");
+    min-height: 400px;
+
+}
+
+.pic1,
+.pic2,
+.pic3 {
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.text{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    font-size: 27px;
+    letter-spacing: 8px;
+
+}
+.tex{
+    background-color: #282e34;
+    color: whitesmoke;
+    padding: 15px;
+
+}
+.section1{
+    padding: 50px 80px;
+    text-align: justify;
+    text-align-last: center;
+    
+}
+h2{
+    text-align: center;
+}
+.section2{
+    padding: 50px 80px;
+    text-align: justify;
+    text-align-last: center;
+    background-color: #282e34;
+    color: #ddd;
+    
+}
